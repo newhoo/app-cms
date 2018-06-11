@@ -3,35 +3,42 @@
 #### 项目介绍
 app-cms是一个简易的CMS网站项目，基于微信小程序开发，适用于简易的公司官网，定位于学习型练手项目。
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 下载代码，使用微信开发者工具打开
+2. 将`project.config.json`中的`appid`替换为你自己的[非必需]
 
-#### 参与贡献
+#### 目录结构
 
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+```
+├── images                   //图片文件夹
+├── pages                    //页面
+│   └── index   	  //首页
+│   └── subject		  //专题栏目页
+│   └── contact		  //联系我们页
+│   └── article		  //文章详情页
+│   └── articles	  //文章列表页
+|── utils                   //工具类
+│   ├── util.js       //工具
+|—— app.js                  //小程序逻辑
+|—— app.json                //小程序公共设置
+|—— app.wxss                //小程序公共样式表
+|—— project.config.json     //小程序工具配置
+```
+
+#### 参考
+1. [微信小程序官方教程](https://developers.weixin.qq.com/miniprogram/dev/quickstart/basic/file.html)
+2. [界面参考](https://gitee.com/jeecg/jeewx-app-cms)
 
 
-#### 码云特技
+#### 功能截图
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+![](images/readme_img/01.png)
+![](images/readme_img/02.png)
+![](images/readme_img/03.png)
+![](images/readme_img/05.png)
+
+#### 关于作者
+即将毕业的大四狗，热爱生活，热爱技术，目前沉迷于JavaEE、大前端开发等
+<br/>
+本人QQ：`2430202306`，欢迎交流

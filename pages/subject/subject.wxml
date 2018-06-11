@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="body" wx:for="{{items}}" wx:key="{{index}}" id="{{item.cid}}" data-title:="{{item.title}}" bindtap="toArticles">
+    <image class="img" src='{{item.image}}'></image>
+    <view class="title">{{item.title}}</view>
+    <view class="intro"> {{item.intro}} </view>
+  </view>
+</view>

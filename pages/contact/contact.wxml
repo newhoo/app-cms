@@ -1,0 +1,11 @@
+<view class="container">
+  <map id="map" bindupdated="bindupdated" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" markers="{{markers}}" style="width: 100%; height: 300px;"></map>
+
+  <view class="address">
+    <view>中国·陕西省西安市长安区樱花广场</view>
+    <view>公司：某某公司</view>
+    <view>邮编：710127</view>
+    <view>电话：12345678910</view>
+    <view>邮箱：2430202306@qq.com</view>
+  </view>
+</view>

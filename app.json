@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/subject/subject",
+    "pages/contact/contact",
+    "pages/article/article",
+    "pages/articles/articles"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#12b7f5",
+    "navigationBarTitleText": "某某公司官网",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#00a8f3",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/images/tab_home.png",
+        "selectedIconPath": "/images/tab_home_selected.png"
+      },
+      {
+        "pagePath": "pages/subject/subject",
+        "text": "专题栏目",
+        "iconPath": "/images/tab_app.png",
+        "selectedIconPath": "/images/tab_app_selected.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "/images/tab_contact.png",
+        "selectedIconPath": "/images/tab_contact_selected.png"
+      }
+    ]
+  }
+}

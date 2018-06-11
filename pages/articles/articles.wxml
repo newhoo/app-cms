@@ -1,0 +1,13 @@
+<view class="body">
+  <block wx:for="{{content}}" wx:key="{{index}}">
+    <view id="{{item.id}}" class="body-item" bindtap="toArticle">
+      <view class="left">
+        <image class="img" src="{{item.image}}"></image>
+      </view>
+      <view class="right">
+        <view class="title">{{item.title}}</view>
+        <view class="intro">{{item.intro}}</view>
+      </view>
+    </view>
+  </block>
+</view>

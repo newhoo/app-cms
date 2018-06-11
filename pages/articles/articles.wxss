@@ -1,0 +1,33 @@
+.body-item {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: #fefefe;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 2px 5px #eee;
+}
+
+.body-item .left {
+}
+
+.body-item .img {
+  width: 60px;
+  height: 60px;
+}
+
+.body-item .right {
+  margin-left: 10px;
+}
+
+.body-item .title {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.body-item .intro {
+  color: #777;
+  font-size: 12px;
+  text-align: justify;
+}
